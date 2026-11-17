@@ -1,16 +1,55 @@
-# React + Vite
+# 🛡️ Cybersecurity Threat Monitoring Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern React-based cybersecurity research dashboard designed to visualize simulated network threats, security incidents, attack patterns, and security infrastructure health.
 
-Currently, two official plugins are available:
+The project provides a clean monitoring interface for analyzing cybersecurity activity through interactive charts, security metrics, incident tracking, and system-status monitoring.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📊 Dashboard Features
 
-## React Compiler
+- Real-time-style cybersecurity threat monitoring
+- Total threat and critical alert tracking
+- Blocked attack statistics
+- Overall security score
+- Threat activity visualization
+- Attack-type distribution analysis
+- Recent security incident tracking
+- Source IP monitoring
+- Threat severity classification
+- Firewall and IDS status monitoring
+- Network security health indicators
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Recharts
+- Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🔍 Threat Categories
+
+The dashboard visualizes multiple simulated cybersecurity threats, including:
+
+- Phishing
+- Malware
+- Brute Force attacks
+- DDoS attacks
+- SQL Injection
+
+## 📈 Research Purpose
+
+This dashboard was developed as an individual research project to demonstrate how cybersecurity monitoring data can be organized and visualized through an interactive web interface.
+
+It provides a simplified representation of how security analysts can monitor threat activity, identify critical incidents, analyze attack distributions, and observe infrastructure health from a centralized dashboard.
+
+## ⚠️ Data Disclaimer
+
+The cybersecurity data displayed in this project is simulated and is used solely for research, educational, and demonstration purposes. The dashboard is not connected to a live production network or intrusion detection system.
+
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/pariiagarwal2005/cybersecurity-threat-monitoring-dashboard.git
